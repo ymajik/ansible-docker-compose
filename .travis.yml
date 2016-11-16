@@ -1,7 +1,4 @@
 ---
-services:
-  - docker
-
 #safelist
 branches:
   only:
@@ -31,6 +28,9 @@ env:
     version: 8.5
     init: /sbin/init
     run_opts: ""
+
+services:
+    - docker
 
 before_install:
   # - apt-get update
