@@ -33,7 +33,7 @@ $ git clone https://github.com/weareinteractive/ansible-docker.git franklinkim.d
 
 ## Dependencies
 
-* Ansible >= 1.9
+* Ansible >= 2.0
 * installed docker i.e. with [franklinkim.docker](https://github.com/weareinteractive/ansible-docker)
 
 ## Variables
